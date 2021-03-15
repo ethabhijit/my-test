@@ -1,0 +1,101 @@
+#navbar {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 6px 0 #dddddd;;
+  height: 50px;
+  align-items: center;
+  z-index: 999;
+  background: #fff;
+}
+
+.navbar-brand {
+  padding-top: 0 !important;
+}
+
+.navbar-collapse {
+  background: #fff;
+  width: 100%;
+}
+
+#logo-image {
+  width: 80px;
+  height: 23px;
+}
+
+.nav-link {
+  color: #000 !important;
+}
+
+.input-group {
+  border: 1px solid #dddddd;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  background: #f7f7f7;
+}
+
+.input-group:first-child {
+  padding: .300rem .50rem;
+}
+
+.input-group:nth-child(2) {
+  padding: 0;
+}
+
+.input-group #form-select {
+  border: none;
+  background: #f7f7f7;
+}
+.input-group #form-text {
+  border: none;
+  padding: .300rem .50rem;
+  width: 210px;
+  background: #f7f7f7;
+}
+
+#input-group-append-btn {
+  border: none;
+  color: #ffffff;
+  height: 100%;
+  background-image: linear-gradient(to bottom, dodgerblue, #43a1ff, #93c9ff);
+  border-radius: .25rem!important;
+  padding: .300rem .50rem;
+}
+
+#profile img {
+  width: 26px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) { 
+  #nav-link-container {
+    align-items: flex-start;
+  }
+  .navbar-collapse {
+    background: #fff;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  .navbar-collapse {
+    background: #fff;
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  #nav-link-container {
+    align-items: center;
+  }  
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #nav-link-container {
+    align-items: center;
+  }
+}

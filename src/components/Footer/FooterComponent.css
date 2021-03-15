@@ -1,0 +1,47 @@
+.footer-container {
+	background-color: #0f2d5f;
+	color: #fff;
+	margin-top: 20px;
+}
+
+/*Footer Brand */
+.footer-brand-section p {
+	font-size: 13px;
+	margin-top: 15px;
+}
+.brand img {
+	width: 156px;
+	height: 42px;
+}
+
+
+/*Footer Contact Us section */
+.footer-contact-us-section .contact-us-icons {
+	margin-top: 15px;
+	font-size: 13px;
+}
+
+.social-icons {
+	color: #ffa74e;
+	font-size: 20px; 
+}
+
+/*Footer Company section */
+.footer-company-section .footer-company ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 15px;
+	font-size: 13px;
+}
+
+
+.footer-download-container .footer-download {
+
+
+}
+.google-play-image,
+.app-store-image {
+	width: 126px;
+    height: 38px;
+}

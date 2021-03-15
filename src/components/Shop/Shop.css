@@ -1,0 +1,34 @@
+.shop-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.rating {
+	position: relative;
+	top: -25px;
+	width: 43px;
+	color: #fff !important;
+	right: -203px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) { 
+  .shop-container {
+		flex-direction: column;
+	}
+	.shop-container .card {
+		margin: auto;
+		margin-top: 10px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  .shop-container {
+		flex-direction: column;
+	}
+	.shop-container .card {
+		margin: auto;
+		margin-top: 10px;
+	}
+}
